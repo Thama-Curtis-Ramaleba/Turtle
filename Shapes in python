@@ -1,0 +1,38 @@
+# The following program will draw the shape of rectangle without a use of loop
+
+import turtle                          # allows us to use the turtles library
+wn = turtle.Screen()                   # creates a graphics window
+rectangle = turtle.Turtle()            # create a turtle named rectangle
+rectangle.forward(100)                 #This instruct turtle rectangle to move forward for 100 units
+rectangle.left(90)                     #This instruct turtle rectangle to turn to the left with 90 degree
+rectangle.forward(60)
+rectangle.left(90)
+rectangle.forward(100)
+rectangle.left(90)
+rectangle.forward(60)
+
+
+# The following program will draw the shape of Octagon with a use of loop
+
+import turtle   
+wn = turtle.Screen()
+octagon = turtle.Turtle()
+octagon.color("red")                #It uses red colour to draw our octagon
+for i in range(8): 
+    octagon.forward(60) 
+    octagon.right(45)
+turtle.done()
+
+# The following program will draw the star with an increase in speed
+
+import turtle
+star = turtle.Turtle() 
+star.speed(0)                       # It increase the speed that will be used to  draw our turtle in this case star
+star.color("yellow")
+for i in range(5): 
+    star.forward(100) 
+    star.right(144) 
+      
+turtle.done() 
+
+
